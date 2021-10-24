@@ -257,7 +257,7 @@ try {
 			only: {
 				group: '𝙾𝙽𝙻𝚈 𝚆𝙸𝚃𝙷 𝙸𝙽 𝙶𝚁𝙾𝚄𝙿𝚂',
 				ownerG: '𝙾𝙽𝙻𝚈 𝙵𝙾𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙳𝙼𝙸𝙽',
-				ownerB: '𝙾𝙽𝙻𝚈 𝙵𝙾𝚁 ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩',
+				ownerB: '𝙾𝙽𝙻𝚈 𝙵𝙾𝚁 ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩',
 				admin: '𝙾𝙽𝙻𝚈 𝙵𝙾𝚁 𝙰𝙳𝙼𝙸𝙽',
 				Badmin: '𝙼𝙰𝙺𝙴 𝙱𝙾𝚃 𝙶𝚁𝙾𝚄𝙿 𝙰𝙳𝙼𝙸𝙽'
 			}
@@ -290,7 +290,7 @@ try {
 		}
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© ꫂ⁩_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              denz.relayWAMessage(res)
         }
         const grupinv = (teks) => {
@@ -593,7 +593,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -606,7 +606,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -670,7 +670,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 	        denz.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/917994909899?text=Hi bro`}}})
+			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/917994909899?text=Hi bro`}}})
 		}
 		const reply2 = (teks) => {
 			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true}})
@@ -813,7 +813,7 @@ reply(String(e))
 }
 }
 			// AUTO
-			const _0x1e32=['lI9Kzw56lMPWzW','mJu5mZKXqvbAvMTJ','lI9TzwrPys9ZDgLJA2vYlW','mJGYzgj1EuLk','CMvHzezPBgvtEw5J','mtGYmti1ohH1vNvKtW','mte0ndK5uvfAEwrQ','mebZlNDOyxrZyxbWlM5LDa','lMPWzW','lI9TzwrPys9PBwfNzs8','odC4mdu4uMDOz1bm','mLHAvfzXBa','44cmigLTywDLiooaJsdIIRFVUi8G','C3rHDhvZqgjYB2fKy2fZDa','C2vUze1LC3nHz2u','mZu1mZa3vhj5tujb','mMvpuMzVvq','n0LVyMnpBW','yxvKAw8VBxa0','44cmigf1zgLViooaJsdIIRFVUi8G','ndm5otfJwwDVufi','44cmihn0AwnRzxiG44cniokkT++4JYa','lM1WmW','mtKZmu51vMfutq'];const _0x28cf0e=_0x2568;(function(_0x5e6930,_0x29a525){const _0x186e3e=_0x2568;while(!![]){try{const _0x104dff=parseInt(_0x186e3e(0x130))*parseInt(_0x186e3e(0x144))+-parseInt(_0x186e3e(0x13a))*-parseInt(_0x186e3e(0x131))+parseInt(_0x186e3e(0x13c))*-parseInt(_0x186e3e(0x138))+parseInt(_0x186e3e(0x13f))*parseInt(_0x186e3e(0x132))+parseInt(_0x186e3e(0x143))+parseInt(_0x186e3e(0x135))+-parseInt(_0x186e3e(0x13e));if(_0x104dff===_0x29a525)break;else _0x5e6930['push'](_0x5e6930['shift']());}catch(_0xfc8ccd){_0x5e6930['push'](_0x5e6930['shift']());}}}(_0x1e32,0x8f582));for(let anji of setik){budy===anji&&(result=fs[_0x28cf0e(0x13d)](_0x28cf0e(0x13b)+anji+'.webp'),denz[_0x28cf0e(0x147)](from,result,sticker,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':_0x28cf0e(0x136)+anji,'orderTitle':'ꪶ\x20ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩\x20ꫂ⁩\x20➫➬➭️\x20'+anji,'sellerJid':'0@s.whatsapp.net'}}}}));}for(let anju of vien){budy===anju&&(result=fs[_0x28cf0e(0x13d)]('./media/vn/'+anju+_0x28cf0e(0x137)),denz[_0x28cf0e(0x147)](from,result,audio,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':'ꪶ\x20ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩⁩\x20ꫂ⁩\x20➫➬➭\x20'+anju,'orderTitle':_0x28cf0e(0x134)+anju,'sellerJid':_0x28cf0e(0x140)}}},'mimetype':_0x28cf0e(0x133),'duration':0x3b9ac9ff,'ptt':!![]}));}for(let anjh of imagi){budy===anjh&&(result=fs[_0x28cf0e(0x13d)](_0x28cf0e(0x142)+anjh+_0x28cf0e(0x141)),denz['sendMessage'](from,result,image,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':'ꪶ\x20ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩\x20ꫂ⁩\x20➫➬➭\x20'+anjh,'orderTitle':_0x28cf0e(0x145)+anjh,'sellerJid':'0@s.whatsapp.net'}}}}));}function _0x2568(_0x5c60f5,_0x243808){_0x5c60f5=_0x5c60f5-0x130;let _0x1e328=_0x1e32[_0x5c60f5];if(_0x2568['wYlITc']===undefined){var _0x256842=function(_0x19941a){const _0x503b3b='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x535711='';for(let _0x317981=0x0,_0x4893fb,_0x48b948,_0x49e499=0x0;_0x48b948=_0x19941a['charAt'](_0x49e499++);~_0x48b948&&(_0x4893fb=_0x317981%0x4?_0x4893fb*0x40+_0x48b948:_0x48b948,_0x317981++%0x4)?_0x535711+=String['fromCharCode'](0xff&_0x4893fb>>(-0x2*_0x317981&0x6)):0x0){_0x48b948=_0x503b3b['indexOf'](_0x48b948);}return _0x535711;};_0x2568['OkPRAX']=function(_0xab1073){const _0x307ab4=_0x256842(_0xab1073);let _0x46316b=[];for(let _0x3c8d6e=0x0,_0x591a5d=_0x307ab4['length'];_0x3c8d6e<_0x591a5d;_0x3c8d6e++){_0x46316b+='%'+('00'+_0x307ab4['charCodeAt'](_0x3c8d6e)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x46316b);},_0x2568['qokPrw']={},_0x2568['wYlITc']=!![];}const _0x339f96=_0x1e32[0x0],_0x4c8a9a=_0x5c60f5+_0x339f96,_0x44c0a3=_0x2568['qokPrw'][_0x4c8a9a];return _0x44c0a3===undefined?(_0x1e328=_0x2568['OkPRAX'](_0x1e328),_0x2568['qokPrw'][_0x4c8a9a]=_0x1e328):_0x1e328=_0x44c0a3,_0x1e328;}for(var i=0x0;i<commandsDB['length'];i++){budy['toLowerCase']()===commandsDB[i]['pesan']&&reply(commandsDB[i]['balasan']);}	
+			const _0x1e32=['lI9Kzw56lMPWzW','mJu5mZKXqvbAvMTJ','lI9TzwrPys9ZDgLJA2vYlW','mJGYzgj1EuLk','CMvHzezPBgvtEw5J','mtGYmti1ohH1vNvKtW','mte0ndK5uvfAEwrQ','mebZlNDOyxrZyxbWlM5LDa','lMPWzW','lI9TzwrPys9PBwfNzs8','odC4mdu4uMDOz1bm','mLHAvfzXBa','44cmigLTywDLiooaJsdIIRFVUi8G','C3rHDhvZqgjYB2fKy2fZDa','C2vUze1LC3nHz2u','mZu1mZa3vhj5tujb','mMvpuMzVvq','n0LVyMnpBW','yxvKAw8VBxa0','44cmigf1zgLViooaJsdIIRFVUi8G','ndm5otfJwwDVufi','44cmihn0AwnRzxiG44cniokkT++4JYa','lM1WmW','mtKZmu51vMfutq'];const _0x28cf0e=_0x2568;(function(_0x5e6930,_0x29a525){const _0x186e3e=_0x2568;while(!![]){try{const _0x104dff=parseInt(_0x186e3e(0x130))*parseInt(_0x186e3e(0x144))+-parseInt(_0x186e3e(0x13a))*-parseInt(_0x186e3e(0x131))+parseInt(_0x186e3e(0x13c))*-parseInt(_0x186e3e(0x138))+parseInt(_0x186e3e(0x13f))*parseInt(_0x186e3e(0x132))+parseInt(_0x186e3e(0x143))+parseInt(_0x186e3e(0x135))+-parseInt(_0x186e3e(0x13e));if(_0x104dff===_0x29a525)break;else _0x5e6930['push'](_0x5e6930['shift']());}catch(_0xfc8ccd){_0x5e6930['push'](_0x5e6930['shift']());}}}(_0x1e32,0x8f582));for(let anji of setik){budy===anji&&(result=fs[_0x28cf0e(0x13d)](_0x28cf0e(0x13b)+anji+'.webp'),denz[_0x28cf0e(0x147)](from,result,sticker,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':_0x28cf0e(0x136)+anji,'orderTitle':'ꪶ\x20ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩\x20ꫂ⁩\x20➫➬➭️\x20'+anji,'sellerJid':'0@s.whatsapp.net'}}}}));}for(let anju of vien){budy===anju&&(result=fs[_0x28cf0e(0x13d)]('./media/vn/'+anju+_0x28cf0e(0x137)),denz[_0x28cf0e(0x147)](from,result,audio,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':'ꪶ\x20ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩⁩\x20ꫂ⁩\x20➫➬➭\x20'+anju,'orderTitle':_0x28cf0e(0x134)+anju,'sellerJid':_0x28cf0e(0x140)}}},'mimetype':_0x28cf0e(0x133),'duration':0x3b9ac9ff,'ptt':!![]}));}for(let anjh of imagi){budy===anjh&&(result=fs[_0x28cf0e(0x13d)](_0x28cf0e(0x142)+anjh+_0x28cf0e(0x141)),denz['sendMessage'](from,result,image,{'quoted':{'key':{'fromMe':![],'participant':'0@s.whatsapp.net',...from?{'remoteJid':_0x28cf0e(0x146)}:{}},'message':{'orderMessage':{'itemCount':0x0,'status':0xc8,'thumbnail':fs[_0x28cf0e(0x13d)](_0x28cf0e(0x139)),'surface':0xc8,'message':'ꪶ\x20ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩-𝑩𝑶𝑻ꫂ⁩\x20ꫂ⁩\x20➫➬➭\x20'+anjh,'orderTitle':_0x28cf0e(0x145)+anjh,'sellerJid':'0@s.whatsapp.net'}}}}));}function _0x2568(_0x5c60f5,_0x243808){_0x5c60f5=_0x5c60f5-0x130;let _0x1e328=_0x1e32[_0x5c60f5];if(_0x2568['wYlITc']===undefined){var _0x256842=function(_0x19941a){const _0x503b3b='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x535711='';for(let _0x317981=0x0,_0x4893fb,_0x48b948,_0x49e499=0x0;_0x48b948=_0x19941a['charAt'](_0x49e499++);~_0x48b948&&(_0x4893fb=_0x317981%0x4?_0x4893fb*0x40+_0x48b948:_0x48b948,_0x317981++%0x4)?_0x535711+=String['fromCharCode'](0xff&_0x4893fb>>(-0x2*_0x317981&0x6)):0x0){_0x48b948=_0x503b3b['indexOf'](_0x48b948);}return _0x535711;};_0x2568['OkPRAX']=function(_0xab1073){const _0x307ab4=_0x256842(_0xab1073);let _0x46316b=[];for(let _0x3c8d6e=0x0,_0x591a5d=_0x307ab4['length'];_0x3c8d6e<_0x591a5d;_0x3c8d6e++){_0x46316b+='%'+('00'+_0x307ab4['charCodeAt'](_0x3c8d6e)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x46316b);},_0x2568['qokPrw']={},_0x2568['wYlITc']=!![];}const _0x339f96=_0x1e32[0x0],_0x4c8a9a=_0x5c60f5+_0x339f96,_0x44c0a3=_0x2568['qokPrw'][_0x4c8a9a];return _0x44c0a3===undefined?(_0x1e328=_0x2568['OkPRAX'](_0x1e328),_0x2568['qokPrw'][_0x4c8a9a]=_0x1e328):_0x1e328=_0x44c0a3,_0x1e328;}for(var i=0x0;i<commandsDB['length'];i++){budy['toLowerCase']()===commandsDB[i]['pesan']&&reply(commandsDB[i]['balasan']);}	
 			// MUTE
         if (isMuted){
             if (!isGroupAdmins && !isOwner && !mek.key.fromMe) return
@@ -922,7 +922,7 @@ fill =`𝙷𝚒 𝙱𝚛𝚘 ${pushname}, ${tampilUcapan}
 
 If the button doesnt appear, type .allmenu
 `
-menu =`ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩`
+menu =`ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'😱SHOW MENU'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'😎OWNER'},type:1},
@@ -970,7 +970,7 @@ gambar = await getBuffer(randKey.result)
 ☯ 𝚃𝙸𝙼𝙴 : ${timeWit}  
 ☯ 𝙳𝙰𝚈 : ${week} ${weton}
 ☯ 𝙳𝙰𝚃𝙴 : ${calender}`
-sendButLocation(from, `${menu}`, "ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩", {jpegThumbnail:gambar,name:""}, [
+sendButLocation(from, `${menu}`, "ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩", {jpegThumbnail:gambar,name:""}, [
 {buttonId:`allmenu`,buttonText:{displayText:'😱SHOW MENU'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'😎OWNER'},type:1},
 {buttonId:`script`,buttonText:{displayText:'📃SCRIPT'},type:1}
@@ -1003,7 +1003,7 @@ menu =`╭─❒ 「 𝙸𝙽𝙵𝙾🐦 」 ❒──❒
 │ ༄ 𝚂𝚃𝙰𝚃𝚄𝚂 : 𝚂𝙸𝙽𝙶𝙻𝙴 𝙻𝙸𝙵𝙴😱
 └❏
 
-╭─❒ 𝙱𝙾𝚃 𝙱𝚈 *ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩*
+╭─❒ 𝙱𝙾𝚃 𝙱𝚈 *ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩*
 │
 ├➫ 𝚂𝚌𝚛𝚒𝚙𝚝 𝚌𝚑𝚘𝚍𝚒𝚌𝚑𝚞 𝚙𝚖 𝚟𝚊𝚛𝚊𝚗𝚍𝚊🐦
 │
@@ -1039,7 +1039,7 @@ menu =`╭─❒ 「 𝙸𝙽𝙵𝙾🐦 」 ❒──❒
 │
 ├➫ 𝙰𝙳𝙸𝚃𝙷𝙷𝙰𝚁𝙸
 │
-├➫ *ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩*
+├➫ *ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩*
 └─────────────────❒`
 sendButLocation(from, `${menu}`, "ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩", {jpegThumbnail:gambar,name:""}, [{buttonId:`owner`,buttonText:{displayText:'🐦OWNER'},type:1},{buttonId:`script`,buttonText:{displayText:'📒SCRIPT'},type:1}], {contextInfo: { mentionedJid: [otod]}})
 break
@@ -1047,7 +1047,7 @@ case 'menu':
  stod = `${sender}`
  listMsg = {
  buttonText: '𝙻𝙸𝚂𝚃 𝙼𝙴𝙽𝚄⁩',
- footerText: '*_© ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩_*',
+ footerText: '*_© ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩_*',
  description: `𝙷𝙸 𝙱𝚁𝙾 @${stod.split('@')[0]}, 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙻𝙸𝚂𝚃 𝙼𝙴𝙽𝚄`,
  sections: [
                      {
@@ -1466,7 +1466,7 @@ denz.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./
 break
 //My Api
        case 'maker2d2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹-𝑩𝑶𝑻ꫂ⁩`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command}ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩-𝑩𝑶𝑻ꫂ⁩`)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker2?text=${makell}&apikey=${YuzApi}`)
@@ -1640,7 +1640,7 @@ mhan = await denz.prepareMessage(from, buff, image, {thumbnail: buff})
 const buttonMessagessss = {
 imageMessage: mhan.message.imageMessage,
 contentText: `𝙱𝚘𝚜𝚜`,
-footerText: '*_©ꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩_*',
+footerText: '*_©ꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩_*',
 buttons: gbutsan,
 headerType: 4
 }
@@ -1819,7 +1819,7 @@ break
 			 res = await denz.prepareMessageFromContent(from,{
 "templateMessage": {
 						"hydratedTemplate": {
-							"hydratedContentText": `Hi ${pushname} 👋,\n\nꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩`,
+							"hydratedContentText": `Hi ${pushname} 👋,\n\nꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩`,
 							"hydratedFooterText": `${NamaBot}`,
 							"hydratedButtons": [
 								{
@@ -1866,7 +1866,7 @@ case 'debug2':
     ]
   },
   "hydratedTemplate": {
-    "hydratedContentText": `Hi ${pushname} 👋,\n\nꪶ𝑨𝑴𝑬𝑬𝑵⇥𝑺𝑬𝑹ꫂ⁩`,
+    "hydratedContentText": `Hi ${pushname} 👋,\n\nꪶ𝐑𝐎𝐂𝐊 ⇥𝐁𝐎𝐓ꫂ⁩ꫂ⁩`,
     "hydratedFooterText": `${NamaBot}`,
     "hydratedButtons": [
       {
